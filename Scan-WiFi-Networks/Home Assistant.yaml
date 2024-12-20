@@ -1,0 +1,204 @@
+# **************************
+# WiFi & Network check
+# **************************
+
+- sensor:
+  - name: WiFi Scanner Signal
+    unique_id: "wifi_scanner_signal"
+    state_topic: "WiFi/Scanner/Signal"
+    unit_of_measurement: "dBm"
+
+  - name: WiFi Scanner IP Address
+    unique_id: "wifi_scanner_ip"
+    state_topic: "WiFi/Scanner/IP"
+
+  - name: WiFi Scanner MAC Address
+    unique_id: "wifi_scanner_mac"
+    state_topic: "WiFi/Scanner/MAC"
+
+  - name: WiFi Scanner Channel
+    unique_id: "wifi_scanner_channel"
+    state_topic: "WiFi/Scanner/Channel"
+
+  - name: APs Channel1
+    unique_id: "wifi_scanner_channel1"
+    state_topic: "WiFi/Scanner/Channel1"
+
+  - name: WiFi Signal channel 1
+    unique_id: "wifi_scanner_Signal1"
+    state_topic: "WiFi/Scanner/Signal1"
+    unit_of_measurement: "dBm"
+
+  - name: APs Channel2
+    unique_id: "wifi_scanner_channel2"
+    state_topic: "WiFi/Scanner/Channel2"
+
+  - name: WiFi Signal channel 2
+    unique_id: "wifi_scanner_Signal2"
+    state_topic: "WiFi/Scanner/Signal2"
+    unit_of_measurement: "dBm"
+    
+  - name: APs Channel3
+    unique_id: "wifi_scanner_channel3"
+    state_topic: "WiFi/Scanner/Channel3"
+
+  - name: WiFi Signal channel 3
+    unique_id: "wifi_scanner_Signal3"
+    state_topic: "WiFi/Scanner/Signal3"
+    unit_of_measurement: "dBm"
+    
+  - name: APs Channel4
+    unique_id: "wifi_scanner_channel4"
+    state_topic: "WiFi/Scanner/Channel4"
+
+  - name: WiFi Signal channel 4
+    unique_id: "wifi_scanner_Signal4"
+    state_topic: "WiFi/Scanner/Signal4"
+    unit_of_measurement: "dBm"
+    
+  - name: APs Channel5
+    unique_id: "wifi_scanner_channel5"
+    state_topic: "WiFi/Scanner/Channel5"
+
+  - name: WiFi Signal channel 5
+    unique_id: "wifi_scanner_Signal5"
+    state_topic: "WiFi/Scanner/Signal5"
+    unit_of_measurement: "dBm"
+
+  - name: APs Channel6
+    unique_id: "wifi_scanner_channel6"
+    state_topic: "WiFi/Scanner/Channel6"
+
+  - name: WiFi Signal channel 6
+    unique_id: "wifi_scanner_Signal6"
+    state_topic: "WiFi/Scanner/Signal6"
+    unit_of_measurement: "dBm"
+    
+  - name: APs Channel7
+    unique_id: "wifi_scanner_channel7"
+    state_topic: "WiFi/Scanner/Channel7"
+
+  - name: WiFi Signal channel 7
+    unique_id: "wifi_scanner_Signal7"
+    state_topic: "WiFi/Scanner/Signal7"
+    unit_of_measurement: "dBm"
+    
+  - name: APs Channel8
+    unique_id: "wifi_scanner_channel8"
+    state_topic: "WiFi/Scanner/Channel8"
+
+  - name: WiFi Signal channel 8
+    unique_id: "wifi_scanner_Signal8"
+    state_topic: "WiFi/Scanner/Signal8"
+    unit_of_measurement: "dBm"
+    
+  - name: APs Channel9
+    unique_id: "wifi_scanner_channel9"
+    state_topic: "WiFi/Scanner/Channel9"
+
+  - name: WiFi Signal channel 9
+    unique_id: "wifi_scanner_Signal9"
+    state_topic: "WiFi/Scanner/Signal9"
+    unit_of_measurement: "dBm"
+    
+  - name: APs Channel10
+    unique_id: "wifi_scanner_channel10"
+    state_topic: "WiFi/Scanner/Channel10"
+
+  - name: WiFi Signal channel 10
+    unique_id: "wifi_scanner_Signal10"
+    state_topic: "WiFi/Scanner/Signal10"
+    unit_of_measurement: "dBm"
+    
+  - name: APs Channel11
+    unique_id: "wifi_scanner_channel11"
+    state_topic: "WiFi/Scanner/Channel11"
+
+  - name: WiFi Signal channel 11
+    unique_id: "wifi_scanner_Signal11"
+    state_topic: "WiFi/Scanner/Signal11"
+    unit_of_measurement: "dBm"
+    
+  - name: APs Channel12
+    unique_id: "wifi_scanner_channel12"
+    state_topic: "WiFi/Scanner/Channel12"
+
+  - name: WiFi Signal channel 12
+    unique_id: "wifi_scanner_Signal12"
+    state_topic: "WiFi/Scanner/Signal12"
+    unit_of_measurement: "dBm"
+    
+  - name: APs Channel13
+    unique_id: "wifi_scanner_channel13"
+    state_topic: "WiFi/Scanner/Channel13"
+
+  - name: WiFi Signal channel 13
+    unique_id: "wifi_scanner_Signal13"
+    state_topic: "WiFi/Scanner/Signal13"
+    unit_of_measurement: "dBm"
+    
+  - name: Ping Gateway
+    unique_id: "ping_gateway"
+    state_topic: "WiFi/Scanner/Ping/GateWay"
+    unit_of_measurement: "ms"
+    
+  - name: Ping HomeAssistant
+    unique_id: "ping_homeassistant"
+    state_topic: "WiFi/Scanner/Ping/HomeAssistant"
+    unit_of_measurement: "ms"
+
+  - name: Ping Google
+    unique_id: "ping_google"
+    state_topic: "WiFi/Scanner/Ping/Google"
+    unit_of_measurement: "ms"
+
+  - name: Ping MS Outlook
+    unique_id: "ping_ms_outlook"
+    state_topic: "WiFi/Scanner/Ping/MS_Outlook"
+    unit_of_measurement: "ms"
+    
+  - name: Ping YouTube
+    unique_id: "ping_youtube"
+    state_topic: "WiFi/Scanner/Ping/YouTube"
+    unit_of_measurement: "ms"
+
+
+  - name: Ping NTP server
+    unique_id: "ping_ntp_server"
+    state_topic: "WiFi/Scanner/Ping/NTP"
+    unit_of_measurement: "ms"
+
+  - name: Ping CloudFlare DNS
+    unique_id: "ping_cloudflare_dns"
+    state_topic: "WiFi/Scanner/Ping/CloudFlareDNS"
+    unit_of_measurement: "ms"
+
+  - name: Ping Switch1
+    unique_id: "ping_switch1"
+    state_topic: "WiFi/Scanner/Ping/Switch1"
+    unit_of_measurement: "ms"
+
+  - name: Ping Switch2
+    unique_id: "ping_switch2"
+    state_topic: "WiFi/Scanner/Ping/Switch2"
+    unit_of_measurement: "ms"
+
+  - name: Ping Switch3
+    unique_id: "ping_switch3"
+    state_topic: "WiFi/Scanner/Ping/Switch3"
+    unit_of_measurement: "ms"
+
+  - name: Ping WiFi AP1
+    unique_id: "ping_wifi_ap1"
+    state_topic: "WiFi/Scanner/Ping/WiFi_AP1"
+    unit_of_measurement: "ms"
+
+  - name: Ping WiFi AP2
+    unique_id: "ping_wifi_ap2"
+    state_topic: "WiFi/Scanner/Ping/WiFi_AP2"
+    unit_of_measurement: "ms"
+    
+  - name: Ping WiFi AP3
+    unique_id: "ping_wifi_ap3"
+    state_topic: "WiFi/Scanner/Ping/WiFi_AP3"
+    unit_of_measurement: "ms"
