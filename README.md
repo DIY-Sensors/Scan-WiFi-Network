@@ -23,9 +23,9 @@ ALL THE IP ADDRESSES ARE FROM MY TEST NETWORK.
 
 ## Video Tutorial:
 For a detailed guide on how to build and set up the sensor, check out the full YouTube video here:
-https://youtu.be/pva0P1CeC8U
+https://youtu.be/4PHB3JJlYSU
 ## 3D case
-https://youtu.be/pva0P1CeC8U
+https://www.thingiverse.com/thing:6880702
 
 ## License:
 This project is open-sourced under the MIT License. See the LICENSE file for more details.
