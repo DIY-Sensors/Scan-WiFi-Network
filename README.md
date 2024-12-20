@@ -1,28 +1,24 @@
 
 
-# DIY Air Quality monitor using an ENS160 and ESP8266 for HomeAssistant
-This project demonstrates how to build a CO2 and VOC sensor using the ENS160 sensor and the ESP8266 (Wemos D1 Mini) board, perfect for integrating into your Home Assistant setup. The sensor communicates over WiFi using MQTT, and this repository contains both Arduino and ESPHome code to get you up and running.
+# DIY Build your own network monitor for home assistant
+This project demonstrates how to build a network monitor with only a ESP8266 / ESP32 and optional an OLED display
 
-![Alt text](https://github.com/DIY-Sensors/Build-your-own-Home-Assistant-air-quality-monitor/blob/main/air%20quality%20sensor.png)
+
+![Alt text](https://github.com/DIY-Sensors/Scan-WiFi-Network/blob/main/build%20your%20own%20network%20monitor%20for%20home%20assistant.jpg)
 
 ## Components Needed:
 - ESP8266 (Wemos D1 Mini or NodeMCU)
-- ENS160 + AHT21
+- OLED display, SSD1603
 - Jumper wires
 - Breadboard
 - Home Assistant (with MQTT broker installed)
 
+ALL THE IP ADDRESSES ARE FROM MY TEST NETWORK.
+
 ## Features:
-- Accurate temperature (in Celcius and Farenheid)and humidity readings with DHT22
-- WiFi connectivity via ESP8266
-- MQTT communication to Home Assistant
-- Code available for both Arduino and ESPHome
-
-## Getting Started:
-1. Build your sensor using this scheme.
-1. Clone or download this repository.
-
-![Alt text](https://github.com/DIY-Sensors/Build-your-own-Home-Assistant-air-quality-monitor/blob/main/Scheme.png)
+![Alt text](https://github.com/DIY-Sensors/Scan-WiFi-Network/blob/main/HA%20AP%20device.png)
+![Alt text](https://github.com/DIY-Sensors/Scan-WiFi-Network/blob/main/HA%20ping%20test.png)
+![Alt text](https://github.com/DIY-Sensors/Scan-WiFi-Network/blob/main/HA%20WiFi%20channels.png)
 
 
 ## Video Tutorial:
